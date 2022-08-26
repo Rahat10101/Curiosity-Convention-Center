@@ -1,0 +1,217 @@
+/* preset code */
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 16px;
+}
+*{
+    box-sizing: border-box;
+}
+
+/* reuseable elements */
+.global-button-v1{
+    background-color: #ffffff;
+}
+
+.global-button-v2{
+    background-color: rgb(199, 199, 199);
+    border:1px solid #a83b20;
+    padding:10px 20px;
+    color: #000000;
+}
+
+.global-button-v2:hover{
+    background-color: #a9a9cc;
+    color: rgb(0, 0, 0);
+
+}
+
+.global-button-v1:hover{
+    background-color: #a5a4a4;
+}
+
+h1.heading{
+    font-size: 48px;
+    font-weight: bold;
+}
+.primary-color{
+    color: #000000;
+}
+.primay-bg-color{
+    background-color: #ebebeb;
+}
+
+
+.white-mode {
+    text-decoration: none;
+    padding: 17px 40px;
+    background-color: yellow;
+    border-radius: 3px;
+    color: black;
+    transition: .35s ease-in-out;
+    position: absolute;
+    left: 15px;
+    bottom: 15px
+}
+
+/* Album section */
+.great-wedding{
+        
+    background-color: #fafafa;
+}
+
+
+/* pricing */
+
+a {
+    text-decoration: none;
+}
+
+
+.pricingTable {
+    text-align: center;
+    background: #fff;
+    margin-top: 50px;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    box-shadow: 0 0 10px #ababab;
+    padding-bottom: 20px;
+    border-radius: 10px;
+    color: #cad0de;
+    transform: scale(1);
+    transition: all .5s ease 0s
+}
+
+.pricingTable:hover {
+    transform: scale(1.05);
+    border-radius: 10px;
+    background-color: #006eff;
+    z-index: 1
+}
+
+.pricingTable .price-value {
+    font-size: 35px;
+    transition: all .5s ease 0s
+}
+
+.pricingTable:hover .pricingTable:hover .price-value, .pricingTable:hover i {
+    color: rgb(0, 0, 0)
+}
+
+.pricingTable .pricing-content ul {
+    list-style: none;
+    text-align: left;
+    padding-left: 50px;
+    margin-bottom: 30px
+}
+
+.pricingTable .pricing-content ul li {
+    line-height: 30px;
+    color: #000000
+}
+
+.pricingTable .pricingTable-chooseplan a {
+    display: inline-block;
+    font-size: 15px;
+    color: rgb(0, 0, 0);
+    padding: 10px 35px;
+    border-radius: 20px;
+    text-transform: uppercase;
+    transition: all .3s ease 0s
+}
+
+
+.pricingTable.blue .heading,
+.pricingTable.blue .price-value {
+    color: #000000
+}
+
+.pricingTable.blue 
+.pricingTable.blue:hover .pricingTable-header {
+    background: #006eff;
+}
+
+.pricingTable.blue  .pricingTable-chooseplan a{
+    background: aquamarine;
+}
+
+.pricingTable.blue .pricingTable-chooseplan a:hover {
+    box-shadow: 0 0 10px #ffffff
+}
+
+.pricingTable.blue:hover .price-value{
+    color: #ffffff;
+}
+
+@media screen and (max-width:990px) {
+    .pricingTable {
+        margin: 0 0 20px
+    }
+}
+
+
+
+/* testimonial CSS */
+
+.single-testimonial{
+    box-shadow: 0 0 10px #ababab;
+    border-radius: 10px;
+}
+
+.user-info p.user-name{
+    color: #23A6F0;
+    font-weight:  bold;
+}
+.user-info p.user-profession{
+    font-weight: bold;
+}
+
+/* faq section css */
+.accordion-button{
+    
+    font-weight: bold;
+    
+}
+.accordion-button:not(.collapsed){
+    background-color: #fff;
+    color:#383838;
+    font-weight: bold;
+}
+
+.accordion-button:focus{
+    border-color: #fff ;
+    box-shadow: 0 0 0 0;
+
+}
+
+.faq-container{
+    margin-top: 100px;
+}
+.accordion-body{
+    color:#7E848C;
+    
+}
+
+
+/* footer css */
+footer{
+    width: 100%;
+    background-color: #0B0D17;
+}
+h4.getapp{
+    font-size: 18px;
+    font-weight: bold;
+}
+
+footer .useful-links ul{}
+footer .useful-links ul li{
+    display: inline;
+    margin-right:10px;
+    line-height: 32px;
+}
+footer .useful-links ul li a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    font-weight: normal;
+    font-size: 16px;
+}
